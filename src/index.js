@@ -3,11 +3,59 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import About from './components/About';
+import Listing from './components/Listing';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        path: 'home',
+        element: <Home />,
+      },
+      {
+        path: 'nav',
+        element: <Nav />,
+      },
+      {
+        path: 'footer',
+        element: <Footer />,
+      },
+      {
+        path: 'about',
+        element: <About />,
+      },
+      {
+        path: 'listing',
+        element: <Listing />,
+      },
+      {
+        path: 'blog',
+        element: <Blog />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
+      },
+    ]
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Provider store={Store}> */}
+      <RouterProvider router={router} />
+    {/* </Provider> */}
   </React.StrictMode>
 );
 
