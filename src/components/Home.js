@@ -2,10 +2,163 @@ import React from "react";
 import { MdFastfood } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
 import { BsFillTelephoneFill, BsFillHeartFill, BsFillStarFill } from "react-icons/bs";
+import { IoFastFoodOutline } from "react-icons/io5";
 
 function Home() {
   return (
     <>
+      <div className="categories">
+        <div className="container">
+          <div className="row">
+            <div className="categories-wrapper">
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content active">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="categories-col">
+                <a href="#" className="categories-content">
+                  <IoFastFoodOutline className="icon" />
+                  <div className="text">
+                    <h2>Food & Drink</h2>
+                    <p className="list">
+                      <span>103</span>
+                      Listing
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='ourListing'>
         <div className='container'>
           <div className='ourListing-upRow'>

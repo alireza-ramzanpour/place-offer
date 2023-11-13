@@ -304,6 +304,104 @@
     color: rgba(0, 0, 0, 0.4);
 }
 
+/* Home */
+
+.categories {
+    padding: 7em 0 0 0;
+    position: relative;
+    width: 100%;
+    background: #f0f4f7;
+}
+
+.categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -200px;
+    width: 100%;
+}
+
+.categories-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-basis: 15%;
+}
+
+.categories-col .active {
+    background: #ff414d;
+}
+
+.categories-content {
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    z-index: 0;
+    box-shadow: 0px 5px 14px -6px rgba(0, 0, 0, 0.07);
+    color: #ff414d;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .categories-content::after{
+    position: absolute;
+    bottom: -100px;
+    right: -80px;
+    content: '';
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.5s ease;
+    color: #ff414d;
+} */
+
+.categories-content .icon {
+    font-size: 60px;
+    line-height: 1.2;
+    color: #ff414d;
+}
+
+.categories-content .text {
+    width: 100%;
+}
+
+.categories-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.categories-content .list {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.categories-content .list span {
+    color: #ff414d;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 2px 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 .ourListing {
     padding: 7em 0;
     position: relative;
@@ -358,14 +456,6 @@
     margin: 0 2.5px;
     background: #fff;
     margin-bottom: 30px;
-    /* -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
-    box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; */
 }
 
 .img-property {
@@ -529,7 +619,6 @@
 
 .offer .row {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .offer .left-col {

@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <Nav />
-      <br />
       <Outlet />
-      <br />
       <Footer />
     </>
   );
